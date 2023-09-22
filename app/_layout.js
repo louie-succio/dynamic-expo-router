@@ -1,5 +1,5 @@
 import { Slot, usePathname } from "expo-router";
-import { Text, View } from "react-native-web";
+import { Text, View } from "react-native";
 
 export default function MainLayout() {
   const pathname = usePathname()

@@ -1,6 +1,5 @@
-import { Text, View } from "react-native-web";
 import { Link, router, useLocalSearchParams } from "expo-router";
-import { Pressable } from "react-native";
+import { Pressable, Text, View } from "react-native";
 
 export default function DynamicIdDetails() {
   const { dynamicId } = useLocalSearchParams()

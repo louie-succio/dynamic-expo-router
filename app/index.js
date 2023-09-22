@@ -1,6 +1,5 @@
 import { Link, router } from "expo-router";
-import { Text, View } from "react-native-web";
-import { Pressable } from "react-native";
+import { Pressable, Text, View } from "react-native";
 
 export default function MainIndex() {
   return <View>
